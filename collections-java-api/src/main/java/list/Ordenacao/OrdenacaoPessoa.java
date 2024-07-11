@@ -1,6 +1,4 @@
-package main.java.list.Ordenação;
-
-import org.w3c.dom.ls.LSOutput;
+package main.java.list.Ordenacao;
 
 import java.util.ArrayList;
 import java.util.Collections;
