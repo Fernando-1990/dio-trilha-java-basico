@@ -57,7 +57,7 @@ public class Iphone implements ReprodutorMusical, NavegadorNaInternet, AparelhoT
 
     @Override
     public void iniciarCorreioVoz() {
-        System.out.println("iniciando o correio por voz");
+        System.out.println("iniciando o correio por voz...");
     }
 }
 
