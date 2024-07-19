@@ -5,6 +5,12 @@ public class Main {
         Cliente fernando = new Cliente();
         fernando.setNome("Fernando");
 
+        ListaCliente listaCliente = new ListaCliente();
+
+        listaCliente.adicionarCliente(fernando);
+
+        listaCliente.obterClientes();
+
         Conta cc = new ContaCorrente(fernando);
         Conta poupanca = new ContaPoupanca(fernando);
 
