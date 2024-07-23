@@ -5,9 +5,13 @@ public class Main {
         Cliente fernando = new Cliente();
         fernando.setNome("Fernando");
 
+        Cliente felipe = new Cliente();
+        felipe.setNome("Felipe");
+
         ListaCliente listaCliente = new ListaCliente();
 
         listaCliente.adicionarCliente(fernando);
+        listaCliente.adicionarCliente(felipe);
 
         listaCliente.obterClientes();
 
